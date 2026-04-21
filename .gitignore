@@ -1,0 +1,4 @@
+*.zip
+*.feather
+.venv
+*.csv
