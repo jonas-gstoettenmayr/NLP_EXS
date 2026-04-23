@@ -2,3 +2,4 @@
 *.feather
 .venv
 *.csv
+*/data/*
