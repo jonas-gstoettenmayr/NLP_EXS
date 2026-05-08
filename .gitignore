@@ -3,5 +3,10 @@
 .venv
 *.csv
 */data/*
+*/handin/*
 __pycache__
 *.sqlite
+EX08/it_hgb_docs
+EX08/examples
+
+.env

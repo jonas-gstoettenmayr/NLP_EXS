@@ -1,0 +1,46 @@
+{
+  "name": "create_task",
+  "title": "None",
+  "description": "Creates a new Pending task with the given title, due date and description, and returns the task ID.",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "description": "Task title"
+      },
+      "assignee": {
+        "type": "string",
+        "description": "Assignee name"
+      },
+      "due": {
+        "type": "string",
+        "format": "date-time",
+        "description": "Due date/time in ISO format"
+      },
+      "description": {
+        "type": "string",
+        "description": "Task description"
+      }
+    },
+    "required": [
+      "title",
+      "assignee",
+      "due",
+      "description"
+    ],
+    "additionalProperties": false
+  },
+  "outputSchema": {
+    "type": "object",
+    "properties": {
+      "result": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "result"
+    ],
+    "x-fastmcp-wrap-result": true
+  }
+}

@@ -1,0 +1,29 @@
+[project]
+name = "EX08"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "packaging>=26.1",
+    #"torch==2.5.1",
+    "pandas>=2.3.3",
+    "jupyter>=1.1.1",
+    "langchain>=1.2.15",
+    "pyarrow>=24.0.0",
+    "datasets>=4.8.4",
+    "matplotlib>=3.10.8",
+    "pydantic>=2.13.3",
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.1.10",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "langmem>=0.0.30",
+    "pypdf>=6.10.2",
+    "langchain-community>=0.4.1",
+    "langchain-text-splitters>=1.1.2",
+    "bs4>=0.0.2",
+    "pdfminer-six>=20260107",
+    "fastmcp>=3.2.4",
+    "langchain-mcp-adapters>=0.2.2",
+    "langsmith>=0.8.0",
+]
