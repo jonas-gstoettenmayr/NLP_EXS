@@ -15,4 +15,21 @@ dependencies = [
     "langchain-ollama>=1.1.0",
     "langgraph>=1.1.10",
     "langchain-community>=0.4.1",
+    "huggingface-hub[cli]>=0.36.2",
+    "torch",
+    "transformers",
+    "peft",
+    "trl",
+    "bitsandbytes",
+    "datasets",
+    "accelerate",
 ]
+
+[[tool.uv.index]]
+name = "pytorch-cu126"
+url = "https://download.pytorch.org/whl/cu126"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu126" }
+torchvision = { index = "pytorch-cu126" }

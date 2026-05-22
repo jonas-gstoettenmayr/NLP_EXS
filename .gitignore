@@ -8,5 +8,6 @@ __pycache__
 *.sqlite
 EX08/it_hgb_docs
 EX08/examples
+new_gwen/
 
 .env
